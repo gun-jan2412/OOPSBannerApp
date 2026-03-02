@@ -10,5 +10,8 @@ public class OOPSBannerApp {
         l[6]=(String.join(" ","**       **","**       **","**       ","      **"));
         l[7]=(String.join(" "," **     ** "," **     ** ","**       ","     ** "));
         l[8]=(String.join(" ","    ***    ","    ***    ","**       ","*****   "));
+        for (int i=0; i<l.length; i++){
+            System.out.println(l[i]);
+        }
     }
 }
